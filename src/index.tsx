@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import App from "./App";
+import Game from "./game";
 
 ReactDOM.render(
-    <App testMessage="Hello ts-react-jest app"/>,
-    document.getElementById("app"),
+    <Game />,
+    document.getElementById('root')
 );
